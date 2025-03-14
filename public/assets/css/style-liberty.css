@@ -17877,11 +17877,11 @@ fieldset:disabled .btn {
     --nav-color: #1a1a1a; /* Dark grey for navigation text */
     --dropdown-color: #ffffff; /* White for dropdown backgrounds */
     --iframe-filter: grayscale(0%); /* No grayscale filter */
-    --bg-grey: #f5f5f5; /* Light grey for backgrounds */
+    --bg-grey: #e3e3e3; /* Light grey for backgrounds */
     --bg-lightgrey: #f9f9f9; /* Lighter grey for backgrounds */
     --layer: rgba(0, 0, 0, 0.56); /* Semi-transparent overlay */
     --layer1: rgba(0, 0, 0, 0.65); /* Darker semi-transparent overlay */
-    --footer-bg: #2e7d32; /* Dark green for footer background */
+    --footer-bg: black; /* Dark green for footer background */
     --footer-bglight: #388e3c; /* Lighter green for footer highlights */
 }
 
@@ -20662,7 +20662,7 @@ screen and (max-height: 300px) {
 /*--//video--*/
 /*--/inner-banner--*/
 .inner-banner {
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(../images/banner2.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
