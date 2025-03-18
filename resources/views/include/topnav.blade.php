@@ -11,32 +11,33 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mx-lg-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ url('/')}}">Home</a>
+                        <a class="nav-link active" aria-current="page" href="{{ url('/')}}">@lang('messages.home')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('about')}}">About</a>
+                        <a class="nav-link" href="{{ route('about')}}">@lang('messages.about')</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('gallery')}}">Gallery</a>
+                        <a class="nav-link" href="{{ route('gallery')}}">@lang('messages.gallery')</a>
                     </li>
                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Operations <i class="fas fa-angle-down"></i>
+                            @lang('messages.languages') <i class="fas fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-2" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item pt-2" href="blog.html">Blog Without Sidebar</a></li>
-                            <li><a class="dropdown-item" href="blog-left.html">Blog With Left Sidebar </a></li>
-                            <li><a class="dropdown-item" href="blog-right.html">Blog With Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="blog-left-single.html">Blog Single Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="blog-right-single.html">Blog Single Right Sidebar </a></li>
-                            <li><a class="dropdown-item" href="blog-single.html">Blog Single Post</a></li>
+                            <li><a class="dropdown-item pt-2" href="locale/en">@lang('messages.english')</a></li>
+                            <li><a class="dropdown-item" href="locale/fr">@lang('messages.french')</a></li>
+                            <li><a class="dropdown-item" href="locale/es">@lang('messages.spanish')</a></li>
+                            <li><a class="dropdown-item" href="locale/ru">@lang('messages.russian')</a></li>
+                            <li><a class="dropdown-item" href="locale/zh">@lang('messages.chinese')</a></li>
+                            <li><a class="dropdown-item" href="locale/ar">@lang('messages.arabic')</a></li>
+
                         </ul>
                     </li>
                 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">@lang('messages.contact')</a>
                     </li>
 
                 </ul>

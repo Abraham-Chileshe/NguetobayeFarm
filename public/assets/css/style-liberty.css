@@ -17899,7 +17899,7 @@ fieldset:disabled .btn {
     --bg-lightgrey: #2e2e2e; /* Lighter dark grey for backgrounds */
     --layer: rgba(0, 0, 0, 0.65); /* Darker semi-transparent overlay */
     --layer1: rgba(0, 0, 0, 0.75); /* Even darker semi-transparent overlay */
-    --footer-bg: #1b5e20; /* Darker green for footer background */
+    --footer-bg: black; /* Darker green for footer background */
     --footer-bglight: #2e7d32; /* Lighter green for footer highlights */
 }
 

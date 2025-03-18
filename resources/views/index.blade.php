@@ -14,26 +14,23 @@
                         <img src="assets/images/g2.png" alt="" class="img-fluid radius-image">
                     </div>
                     <div class="w3ab-left-top col-lg-6 mt-lg-0 mt-4 pt-lg-0 pt-2">
-                        <h6 class="title-subw3hny mb-1">Get rather healthy.</h6>
-                        <h3 class="title-w3l mb-2">Welcome to Our Farm</h3>
-                        <p class="my-3">At Nguetobaye's Farm, we are dedicated to sustainable agriculture, cultivating
-                            high-quality maize, sorghum, millet, and raising healthy livestock. From nourishing crops to
-                            premium pork, we strive to provide fresh, locally grown products while empowering our community
-                            and promoting food security. Join us on our journey to grow a healthier, greener future. </p>
+                        <h3 class="title-w3l mb-2">@lang('messages.welcome')</h3>
+                        <p class="my-3">@lang('messages.welcome_info') </p>
 
-                        <a href="about.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="about.html" class="btn btn-style btn-primary mt-4">@lang('messages.read_more')</a>
                     </div>
 
                 </div>
             </div>
         </section>
         <!--//grids-->
+        
         <!-- features-section -->
         <section class="w3l-features py-5" id="features">
             <div class="container py-lg-5 py-md-4 py-2">
                 <div class="title-content text-center mb-lg-3 mb-4">
-                    <h6 class="title-subw3hny mb-1">Quality Matters</h6>
-                    <h3 class="title-w3l">What We Do.</h3>
+                    <h6 class="title-subw3hny mb-1">@lang('messages.sm_text')</h6>
+                    <h3 class="title-w3l">@lang('messages.what_we_do')</h3>
                 </div>
                 <div class="main-cont-wthree-2">
                     <div class="row justify-content-center">
@@ -42,9 +39,8 @@
                                 <div class="icon">
                                     <i class="fas fa-leaf"></i>
                                 </div>
-                                <h4><a href="#service" class="title-head mb-3">Premium Crops</a></h4>
-                                <p class="text-para">We grow high-quality maize, sorghum, and millet using advanced farming
-                                    techniques and sustainable practices. </p>
+                                <h4><a href="#service" class="title-head mb-3">@lang('messages.first_card_title')</a></h4>
+                                <p class="text-para">@lang('messages.first_card_text')</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -52,8 +48,10 @@
                                 <div class="icon">
                                     <i class="fas fa-piggy-bank"></i>
                                 </div>
-                                <h4><a href="#service" class="title-head mb-3">Healthy Livestock</a></h4>
-                                <p class="text-para">Our pigs are raised in clean, well-ventilated pens and fed a balanced diet to ensure their health and productivity.</p>
+                                <h4><a href="#service" class="title-head mb-3">@lang('messages.second_card_title')</a></h4>
+                                <p class="text-para">
+                                <p class="text-para">@lang('messages.second_card_text')</p>
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -61,9 +59,10 @@
                                 <div class="icon">
                                     <i class="fa fa-water"></i>
                                 </div>
-                                <h4><a href="#service" class="title-head mb-3">Sustainable Practices</a></h4>
-                                <p class="text-para">We are committed to farming methods that protect the environment and
-                                    ensure long-term productivity. </p>
+                                <h4><a href="#service" class="title-head mb-3">@lang('messages.third_card_title')</a></h4>
+                                <p class="text-para">
+                                <p class="text-para">@lang('messages.third_card_text')</p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -117,16 +116,16 @@
         <section class="w3l-gallery-main py-5" id="gallery">
             <div class="container py-lg-5 py-md-4 py-2">
                 <div class="title-content text-center mx-auto">
-                    <h6 class="title-subw3hny mb-1">Gallery</h6>
-                    <h3 class="title-w3l mb-4">Latest Gallery
+                    <h6 class="title-subw3hny mb-1"> @lang('messages.gallery')</h6>
+                    <h3 class="title-w3l mb-4">@lang('messages.latest_gallery')
                     </h3>
                 </div>
                 <div class="row gal-page-grids text-center">
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title=""
-                            href="assets/images/g1.png">
+                        <a title="" href="assets/images/g1.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g1.png" alt="" style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g1.png" alt=""
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -137,10 +136,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title=""
-                            href="assets/images/g2.png">
+                        <a title="" href="assets/images/g2.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g2.png" alt=" " style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g2.png" alt=" "
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -151,10 +150,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title=""
-                            href="assets/images/g3.png">
+                        <a title="" href="assets/images/g3.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g3.png" alt=" " style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g3.png" alt=" "
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -165,10 +164,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title=""
-                            href="assets/images/g4.png">
+                        <a title="" href="assets/images/g4.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g4.png" alt=" " style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g4.png" alt=" "
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -179,10 +178,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
-                            href="assets/images/g5.jpg">
+                        <a title="" href="assets/images/g5.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g5.png" alt=" " style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g5.png" alt=" "
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -193,10 +192,10 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-6 w3layouts_gallery_grid">
-                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
-                            href="assets/images/g6.jpg">
+                        <a title="" href="assets/images/g6.png">
                             <div class="w3layouts_team_grid">
-                                <img src="assets/images/g6.png" alt=" " style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
+                                <img src="assets/images/g6.png" alt=" "
+                                    style="width:100%; height:300px; object-fit: cover;" class="img-fluid radius-image" />
                                 <div class="w3layouts_team_grid_pos">
                                     <div class="wthree_text">
                                         <i class="fas fa-search-plus"></i>
@@ -207,7 +206,7 @@
                         </a>
                     </div>
 
-                    <a href="{{route('gallery')}}" class="btn btn-style btn-primary mt-4">See More</a>
+                    <a href="{{ route('gallery') }}" class="btn btn-style btn-primary mt-4">@lang('messages.see_more')</a>
 
                 </div>
             </div>
@@ -223,12 +222,8 @@
                                     <div class="testimonial">
                                         <blockquote>
                                             <q><i class="fas fa-quote-left me-2"></i>
-                                                At Nguetobaye's Farm, we believe that the future of agriculture lies in
-                                                sustainability, innovation, and community. By nurturing the land and caring
-                                                for our livestock, we are not just growing crops and raising pigs—we are
-                                                cultivating a legacy of food security, economic empowerment, and
-                                                environmental stewardship. Together, we are sowing the seeds of a brighter,
-                                                healthier future</q>
+                                                @lang('messages.ceo_quote_one')    
+                                            </q>
                                         </blockquote>
                                         <div class="testi-des">
                                             <div class="test-img"><img src="assets/images/team1.jpg" class="img-fluid"
@@ -248,7 +243,8 @@
                                     <div class="testimonial">
                                         <blockquote>
                                             <q><i class="fas fa-quote-left me-2"></i>
-                                                In the face of challenges, we see opportunities. At Nguetobaye's Farm, we are redefining agriculture by combining tradition with innovation, resilience with sustainability, and hard work with a vision for growth.</q>
+                                                @lang('messages.ceo_quote_two')    
+                                            </q>
                                         </blockquote>
                                         <div class="testi-des">
                                             <div class="test-img"><img src="assets/images/team1.jpg" class="img-fluid"
@@ -262,7 +258,7 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
 
@@ -274,8 +270,8 @@
         <section class="w3l-team-main team py-5" id="team">
             <div class="container py-lg-5">
                 <div class="title-content text-center mb-2">
-                    <h6 class="title-subw3hny mb-1">Meet</h6>
-                    <h3 class="title-w3l">Our Team.</h3>
+                    <h6 class="title-subw3hny mb-1">  @lang('messages.meet') </h6>
+                    <h3 class="title-w3l">  @lang('messages.our_team') </h3>
                 </div>
                 <div class="row team-row justify-content-center">
                     <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
@@ -299,7 +295,8 @@
                                 </div>
                             </div>
                             <a href="#url" class="team-title">
-                                Massengar Rongar Nguetobaye</a>
+                                @lang('messages.ceo')
+                            </a>
                             <p>CEO</p>
                         </div>
                     </div>
@@ -324,8 +321,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#url" class="team-title">...</a>
-                            <p>...</p>
+                            <a href="#url" class="team-title"></a>
+                            <p></p>
                         </div>
                     </div>
                     <!-- end team member -->
@@ -349,8 +346,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#url" class="team-title">...</a>
-                            <p>...</p>
+                            <a href="#url" class="team-title"></a>
+                            <p></p>
                         </div>
                     </div>
                     <!-- end team member -->
@@ -358,7 +355,4 @@
 
             </div>
         </section>
-
-
-        
     @endsection

@@ -11,12 +11,12 @@
                     <div class="w3breadcrumb-gids">
                         <div class="w3breadcrumb-left text-left">
                             <h2 class="inner-w3-title mt-lg-5 mt-4">
-                                Gallery </h2>
+                                @lang('messages.gallery')</h2>
                         </div>
                         <div class="w3breadcrumb-right">
                             <ul class="breadcrumbs-custom-path">
-                                <li><a href="{{ url('/')}}l">Home</a></li>
-                                <li class="active"><span class="fas fa-arrow-right mx-2"></span> Gallery</li>
+                                <li><a href="{{ url('/')}}l">@lang('messages.home')</a></li>
+                                <li class="active"><span class="fas fa-arrow-right mx-2"></span> @lang('messages.gallery')</li>
                             </ul>
                         </div>
                     </div>
@@ -28,8 +28,8 @@
         <section class="w3l-gallery-main py-5" id="gallery">
             <div class="container py-lg-5 py-md-4 py-2">
                 <div class="title-content text-center mx-auto">
-                    <h6 class="title-subw3hny mb-1">Gallery</h6>
-                    <h3 class="title-w3l mb-4">Latest Gallery
+                    <h6 class="title-subw3hny mb-1">@lang('messages.gallery')</h6>
+                    <h3 class="title-w3l mb-4">@lang('messages.latest_gallery')
                     </h3>
                 </div>
                 <div class="row gal-page-grids text-center">
