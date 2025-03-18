@@ -13,6 +13,7 @@ return [
     'home' => '首页',
     'about' => '关于我们',
     'gallery' => '画廊',
+    'blog' => '博客', 
     'languages' => '语言',
     'contact' => '联系我们',
 

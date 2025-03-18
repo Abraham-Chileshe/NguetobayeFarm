@@ -13,6 +13,7 @@ return [
     'home' => 'Accueil',
     'about' => 'À Propos de Nous',
     'gallery' => 'Galerie',
+    'blog' => 'Blog',
     'languages' => 'Langues',
     'contact' => 'Contactez-nous',
 

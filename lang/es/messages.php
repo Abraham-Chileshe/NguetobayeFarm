@@ -12,6 +12,7 @@ return [
     //topnav
     'home' => 'Inicio',
     'about' => 'Sobre Nosotros',
+    'blog' => 'Blog',
     'gallery' => 'Galería',
     'languages' => 'Idiomas',
     'contact' => 'Contáctanos',

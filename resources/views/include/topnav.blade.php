@@ -18,6 +18,10 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('blog')}}">@lang('messages.blog')</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('gallery')}}">@lang('messages.gallery')</a>
                     </li>
                    

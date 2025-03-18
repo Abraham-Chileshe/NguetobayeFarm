@@ -15,6 +15,7 @@ return [
     'about' => 'About Us',
     'gallery' => 'Gallery',
     'languages' => 'Languages',
+    'blog' => 'Blog',
     'contact' => 'Contact Us',
 
     //banner
